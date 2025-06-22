@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.main{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.conteiner{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 63px;
+}
+
+.conteiner ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner ul li{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.elements{
+     text-align: center;
+     display: flex;
+     justify-content: space-around;     
+}
+.azimjon{
+    text-align: center;
+}
+
+
+.elementRed{
+    background-color: red;
+    width: 558px;
+    height: 452px;
+    color: white;
+}
+
